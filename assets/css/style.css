@@ -5,6 +5,28 @@
     src: url('webfonts/395FAA_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/395FAA_0_0.woff2') format('woff2'), url('webfonts/395FAA_0_0.woff') format('woff'), url('webfonts/395FAA_0_0.ttf') format('truetype');
 }
 
+/*----------------------------------Media Queries*/
+
+@media (max-width:736px) {
+    .main-page-image {
+        width: 300px !important;
+        height: 100px !important;
+    }
+}
+
+/*---------------------------------------Buttons*/
+
+.btn {
+    color: #d0d0d0;
+    background-color: crimson;
+    border-radius: 50px;
+    border-color: crimson;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
 /*------------------------------Header/NavBar*/
 
 .dropdown-menu a:hover {
@@ -95,4 +117,154 @@ nav.large {
 
 .navbar-dark .navbar-nav .nav-link {
     color:#fafafa;
+}
+
+/*-------------------------------------------MAIN Video Page*/
+
+.main-page-image {
+    width: 600px;
+    height: 200px;
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/*--------------------------------------Footer*/
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    min-height: 60px;
+}
+
+.go-top {
+    color: #d0d0d0;
+    float: right;
+    font-family: "hex", sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.email-icon {
+    color: green;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.email-icon:hover {
+    color: rgba(90, 206, 54, 0.85);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.top-arrow {
+    color: green;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.top-arrow:hover {
+    color: rgba(90, 206, 54, 0.85);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.email-contact {
+    color: #d0d0d0;
+    margin-top: 6px;
+    cursor: pointer;
+    float: left;
+    font-family: "hex", sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.email-icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+/*-----------------------Mobile Footer*/
+
+.mobile-top-arrow {
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.mobile-email-contact {
+    color: #d0d0d0;
+    font-size: 15px;
+    margin-top: -6px;
+    font-family: "hex", sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.mobile-go-top {
+    color: #d0d0d0;
+    font-size: 15px;
+    font-family: "hex", sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.mobile-email-icon {
+    color: green;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.email-wrapper {
+    margin-top: 10px;
+}
+
+/*----------------------------------------------Email Form*/
+
+.modal-content {
+    background: #222222;
+    color: #d0d0d0;
+    opacity: 0.9;
+}
+
+.text-muted {
+    color: rgb(78, 73, 73);
+}
+
+.close {
+    color: green;
+}
+
+.close:hover {
+    color: rgba(90, 206, 54, 0.85);
 }
