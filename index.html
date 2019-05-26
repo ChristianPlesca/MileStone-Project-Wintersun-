@@ -11,9 +11,10 @@
         type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/wintersun-browser-logo.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="./MyFontsWebfontsKit/MyFontsWebfontsKit.css">
+    <link rel="stylesheet" type="text/css" href="./MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
     <!--
 /**
  * @license
@@ -115,6 +116,125 @@
         </nav>
     </header>
     <!--*********************navbar**************-->
+    <!--*********************Main Page**************-->
+    <div class="video-container" id="main">
+        <video id="video" autoplay loop muted>
+            <source src="assets/videos/background-wintersun-video-10mb.mp4" type="video/mp4">
+        </video>
+        <div class="video-logo">
+            <img class="main-page-image" src="assets/images/wintersun-new-main-logo.png" alt="Wintersun Logo">
+        </div>
+    </div>
+
+    <!--*********************main page**************-->
+    <!--*********************FOOTER**************-->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <li class="d-block d-md-none text-center">
+                        <a href="#main">
+                            <span class="text-uppercase mobile-go-top "><i
+                                    class="mobile-top-arrow top-arrow fa fa-arrow-circle-up"></i>Go
+                                Top</span>
+                        </a>
+                    </li>
+                    <ul class="list-inline social-links">
+                        <li class="d-none d-md-block">
+                            <a href="index.html">
+                                <div class="text-uppercase go-top "><span
+                                        class="top-arrow fa fa-arrow-circle-up"></span>Go
+                                    Top</div>
+                            </a>
+                        </li>
+                        <li class="d-none d-md-block">
+                            <span class=" text-uppercase email-contact" data-toggle="modal"
+                                data-target="#signUpModal"><i class="email-icon fa fa-envelope"></i>Newsletter</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/wintersun/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/wintersun?lang=en-gb">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://open.spotify.com/artist/6ui6SwChan7c1KYBQCqGKV">
+                                <i class="fa fa-spotify" aria-hidden="true"></i>
+                                <span class="sr-only">Spotify</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank"
+                                href="https://www.pinterest.co.uk/search/pins/?q=wintersun%20band&rs=typed&term_meta[]=wintersun%7Ctyped&term_meta[]=band%7Ctyped">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/wintersunofficial/?hl=en">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/user/JariWintersun">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-block d-md-none text-center">
+                        <span class=" text-uppercase mobile-email-contact" data-toggle="modal"
+                            data-target="#signUpModal"><i class="mobile-email-icon fa fa-envelope"></i>Newsletter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--*********************footer**************-->
+
+    <!--*********************EMAIL-FORM**************-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Newsletter Subscribe!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*********************email-form**************-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
