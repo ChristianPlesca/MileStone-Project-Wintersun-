@@ -1,0 +1,98 @@
+@import url("//hello.myfonts.net/count/395faa");
+@font-face {
+    font-family: 'Hex';
+    src: url('webfonts/395FAA_0_0.eot');
+    src: url('webfonts/395FAA_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/395FAA_0_0.woff2') format('woff2'), url('webfonts/395FAA_0_0.woff') format('woff'), url('webfonts/395FAA_0_0.ttf') format('truetype');
+}
+
+/*------------------------------Header/NavBar*/
+
+.dropdown-menu a:hover {
+    background-color: green;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: rgba(90, 206, 54, 0.85);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #222222;
+    opacity: 0.9;
+}
+
+.dropdown-menu {
+    background-color: #222222;
+}
+
+.dropdown-menu a {
+    color: #d0d0d0;
+}
+
+.nav-logo {
+    width: 130px;
+    margin: 0px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    color: #fafafa;
+}
+
+.nav-link:hover {
+    color: #a39d9d;
+}
+
+nav.large {
+    background: #222222;
+    opacity: 0.9;
+}
+
+.nav-items {
+    padding: 10px;
+}
+
+.social-links {
+    padding-top: 7px;
+    margin-top: 7px
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: green;
+    background: #222222;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    position: relative;
+}
+
+.navbar-brand {
+    margin-right: 3.5rem;
+}
+
+.navbar-nav {
+    font-family: "hex" , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#fafafa;
+}
