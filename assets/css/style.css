@@ -4,13 +4,50 @@
     src: url('webfonts/395FAA_0_0.eot');
     src: url('webfonts/395FAA_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/395FAA_0_0.woff2') format('woff2'), url('webfonts/395FAA_0_0.woff') format('woff'), url('webfonts/395FAA_0_0.ttf') format('truetype');
 }
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "hex";
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #fefefe !important;
+    font-weight: bold !important;
+}
 /*----------------------------------Media Queries*/
+
 
 @media (max-width:736px) {
     .main-page-image {
         width: 300px !important;
         height: 100px !important;
+    }
+}
+
+@media(min-width:360px) and (max-width:823px) {
+    .band-members-img {
+        width: 120px;
+        height: 120px;
+    }
+    .biography-container {
+        padding: 15px !important;
+    }
+}
+
+@media(max-width:375px) {
+    .band-members-img {
+        width: 120px;
+        height: 120px;
+        margin: 15px !important;
+    }
+}
+
+@media(max-width:320px) {
+    .biography-container {
+        padding: 0px !important;
     }
 }
 
@@ -25,6 +62,23 @@
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
+}
+#myBtn {
+    padding: 10px;
+    background: rgba(24, 24, 24, .7);
+    box-shadow: inset 0 0 0 2px #b3b3b3;
+    color: #b3b3b3;
+    font-size: 13px;
+    letter-spacing: .16em;
+    border-width: 0;
+    transition: 0.50s ease-in-out;
+    -moz-transition: 0.50s ease-in-out;
+    -webkit-transition: 0.50s ease-in-out;
+    -o-transition: 0.50s ease-in-out;
+}
+
+#more {
+    display: none;
 }
 
 /*------------------------------Header/NavBar*/
@@ -145,6 +199,125 @@ nav.large {
     pointer-events: none;
     z-index: -1;
 }
+
+/*---------------------------------------------Biography*/
+
+.biography-img-container {
+    width: 100%;
+    height: 100%;
+    background: url("../images/biography-main.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.biography-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.biography-container {
+    color: #b3b3b3;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.biography-background {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.paragrath-links {
+    color: #ffa500;
+    transition: 0.50s ease-in-out;
+    -moz-transition: 0.50s ease-in-out;
+    -webkit-transition: 0.50s ease-in-out;
+    -o-transition: 0.50s ease-in-out;
+}
+
+.fa-quotes {
+    padding: 5px;
+    color: green;
+}
+
+.little-line {
+    color: green;
+}
+
+.jari-motto {
+    font-size: 14px;
+    font-family: "Crimson Text" sans-serif !important;
+}
+
+#myBtn:hover {
+    font-size: 13px;
+    padding: 15px;
+    transition: 0.50s ease-in-out;
+    -moz-transition: 0.50s ease-in-out;
+    -webkit-transition: 0.50s ease-in-out;
+    -o-transition: 0.50s ease-in-out;
+    color: green;
+}
+
+.paragrath-links:hover {
+    color: green;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*-----------------------------------------------Band Members*/
+
+.current--band-headder {
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.band-members-img {
+    object-fit: cover;
+    margin: 28px;
+    border-radius: 100%;
+    opacity: 0.8;
+}
+
+.current--band-column-w3 {
+    display: inline-block;
+}
+
+.main-band--members-container {
+    text-align: center;
+}
+
+.individual-member {
+    font-family: "hex", sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.individual-member:hover {
+    color: green;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
 
 /*--------------------------------------Footer*/
 
