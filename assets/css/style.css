@@ -4,8 +4,8 @@
     src: url('webfonts/395FAA_0_0.eot');
     src: url('webfonts/395FAA_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/395FAA_0_0.woff2') format('woff2'), url('webfonts/395FAA_0_0.woff') format('woff'), url('webfonts/395FAA_0_0.ttf') format('truetype');
 }
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -17,8 +17,8 @@ h1, h2, h3, h4, h5 {
     color: #fefefe !important;
     font-weight: bold !important;
 }
-/*----------------------------------Media Queries*/
 
+/*----------------------------------Media Queries*/
 
 @media (max-width:736px) {
     .main-page-image {
@@ -46,8 +46,11 @@ h1, h2, h3, h4, h5 {
 }
 
 @media(max-width:320px) {
+    .current--band-column-w3 {
+        font-size: 15px;
+    }
     .biography-container {
-        padding: 0px !important;
+        padding: 7px !important;
     }
 }
 
@@ -63,6 +66,7 @@ h1, h2, h3, h4, h5 {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
 #myBtn {
     padding: 10px;
     background: rgba(24, 24, 24, .7);
@@ -163,14 +167,14 @@ nav.large {
 }
 
 .navbar-nav {
-    font-family: "hex" , sans-serif;
+    font-family: "hex", sans-serif;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 3px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color:#fafafa;
+    color: #fafafa;
 }
 
 /*-------------------------------------------MAIN Video Page*/
@@ -285,7 +289,7 @@ nav.large {
 
 .band-members-img {
     object-fit: cover;
-    margin: 28px;
+    margin: 34px;
     border-radius: 100%;
     opacity: 0.8;
 }
@@ -317,7 +321,111 @@ nav.large {
     -o-transition: all 0.35s ease-in-out;
 }
 
+/*-------------------------------------TourDates*/
 
+.tour-dates-img-background {
+    width: 100%;
+    height: 100%;
+    background: url("../images/wintersun-tour-dates-main.jpg") no-repeat top right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bit-widget .bit-top-track-button {
+    padding: 5px 5px 10px 10px !important;
+}
+
+.tour-dates-header {
+    color: #fefefe;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ded4b2 !important;
+}
+
+.tour-container {
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.bit-widget, .bit-layout-desktop, .bit-event, .bit-button, .bit-widget, .bit-layout-ipad, .bit-event, .bit-button {
+    border-radius: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    background: #222222 !important;
+    border: 1px solid #222222 !important;
+    opacity: 0.9;
+}
+
+.bit-widget.bit-layout-desktop .bit-event .bit-button:hover {
+    background: rgba(90, 206, 54, 0.85) !important;
+    border: 1px solid rgba(90, 206, 54, 0.85) !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.bit-play-my-city-button {
+    font-family: "hex", sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    background: #222222 !important;
+    border: 1px solid #222222 !important;
+    border-radius: 10px;
+    color: #ded4b2 !important;
+}
+
+.bit-play-my-city-button:hover {
+    background: rgba(90, 206, 54, 0.85) !important;
+    border: 1px solid rgba(90, 206, 54, 0.85) !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.bit-event {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.bit-event:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.bit-top-track-button {
+    font-family: "hex", sans-serif;
+    font-size: 25px !important;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.bit-events-container {
+    font-family: 'Crimson Text', serif !important;
+}
+
+.bit-date, .bit-venue, .bit-location, .bit-widget, .bit-event-list-title {
+    color: #ded4b2 !important;
+    font-size: 18px !important;
+}
 
 /*--------------------------------------Footer*/
 
