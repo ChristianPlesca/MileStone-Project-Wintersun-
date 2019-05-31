@@ -156,7 +156,6 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-
 /*---------------------------------------Buttons*/
 
 .btn {
@@ -226,7 +225,7 @@ h1, h2, h3, h4, h5 {
 
 .navbar {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     color: #fafafa;
 }
@@ -529,7 +528,9 @@ nav.large {
     color: #ded4b2 !important;
     font-size: 18px !important;
 }
+
 /*------------------------------------------------Store*/
+
 .store-background-img {
     width: 100%;
     height: 100%;
@@ -543,8 +544,6 @@ nav.large {
     justify-content: center;
     position: relative;
 }
-
-
 
 .items-description {
     padding: 0;
@@ -596,7 +595,42 @@ nav.large {
     border-color: rgba(90, 206, 54, 0.85);
 }
 
+/*----------------------------------------Instagram Feed*/
 
+#eapps-instagram-feed-1 {
+    width: 100%;
+    height: 100%;
+    background: url("../images/instagram-background.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.eapps-instagram-feed-posts-view.eui-slider-slide {
+    margin-bottom: 50px !important;
+}
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-template-classic {
+    background: rgb(34, 34, 34, ) !important;
+    border-radius: 10px;
+    border: rgba(34, 34, 34, 0.9) !important;
+    color: rgba(90, 206, 54, 0.85) !important;
+}
+
+.eapps-instagram-feed-title {
+    font-family: "hex", sans-serif;
+    letter-spacing: 5px;
+    color: #ded4b2 !important;
+    font-weight: bold !important;
+    font-size: 35px !important;
+    padding: 40px !important;
+    
+}
 
 /*--------------------------------------Footer*/
 
