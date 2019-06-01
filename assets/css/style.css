@@ -5,17 +5,14 @@
     src: url('webfonts/395FAA_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/395FAA_0_0.woff2') format('woff2'), url('webfonts/395FAA_0_0.woff') format('woff'), url('webfonts/395FAA_0_0.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
-
 html {
     scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: "hex";
-    font-weight: 500;
     letter-spacing: 3px;
-    color: #fefefe !important;
+    color: #ded4b2 !important;
     font-weight: bold !important;
 }
 
@@ -157,7 +154,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media(min-width:568px){
+@media(min-width:568px) {
     .galery-images {
         width: 100%;
         height: 170px !important;
@@ -188,6 +185,73 @@ h1, h2, h3, h4, h5 {
         height: 300px !important;
     }
 }
+
+@media(max-width:414px) {
+    .video-column-w3 {
+        float: left;
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+        height: 250px;
+        padding: 20px;
+    }
+    .video-title {
+        margin-left: 20px;
+    }
+}
+
+@media(min-width:568px) {
+    .video-column-w3 {
+        float: left;
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+        height: 350px;
+        padding: 10px;
+    }
+    .video-title {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .video-column-w3 {
+        float: left;
+        width: 100%;
+        padding: 30px;
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media(min-width:1024px) {
+    .video-column-w3 {
+        float: left;
+        width: 50%;
+        padding: 5px;
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media(min-width:1400px) {
+    .video-column-w3 {
+        float: left;
+        width: 33%;
+        padding: 5px;
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
 
 /*---------------------------------------Buttons*/
 
@@ -302,14 +366,15 @@ nav.large {
 }
 
 .navbar-nav {
-    font-family: "hex", sans-serif;
-    font-size: 20px;
+    font-family: 'Metal Mania', cursive !important;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 3px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fafafa;
+
 }
 
 /*-------------------------------------------MAIN Video Page*/
@@ -662,7 +727,6 @@ nav.large {
     font-weight: bold !important;
     font-size: 35px !important;
     padding: 40px !important;
-    
 }
 
 /*--------------------------------------Footer*/
@@ -731,6 +795,7 @@ footer {
 .list-inline {
     text-align: center;
 }
+
 /*----------------------------------------------------------IMAGES*/
 
 .image-header {
@@ -913,8 +978,56 @@ img.hover-shadow {
     background: black;
 }
 
+/*------------------------------------------VIDEOS*/
 
 
+.video-title {
+    color: #fefefe;
+}
+
+.video-header {
+    text-align: center;
+    margin: 0px;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-family: 'hex', sans-serif;
+    letter-spacing: 3px;
+}
+
+.video-sub-header {
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    font-family: 'hex', sans-serif;
+}
+
+.main-video-container {
+    width: 100%;
+    height: 100%;
+    background: url("../images/galery/image-background.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.video-row-w3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*-----------------------Mobile Footer*/
 
