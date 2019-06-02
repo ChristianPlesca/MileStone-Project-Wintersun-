@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media(max-width:425px) {
+@media(max-width:568px) {
     .video-column-w3 {
         float: left;
         width: 100%;
