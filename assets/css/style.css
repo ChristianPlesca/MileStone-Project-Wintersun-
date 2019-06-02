@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media(max-width:568px) {
+@media(max-width:420px) {
     .video-column-w3 {
         float: left;
         width: 100%;
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media(min-width:568px) {
+@media(min-width:420px) {
     .video-column-w3 {
         float: left;
         width: 100%;
