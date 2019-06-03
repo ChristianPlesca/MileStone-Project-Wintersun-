@@ -1,4 +1,6 @@
 # Wintersun Band Website
 Stream One Project: User-Centric Frontend Development - Code Institute
 
-This is a Website for a Metal band called WINTERSUN.
+This is a website I created for a band called (Wintersun) to present to prospective employers. The website highlights seven projects that cover a range of technologies. Fans can buy tickets at the tour dates section updates each time the band announces a new gig, fans can also find the best quality videos and pictures which have been carefully chosen by me. There is a solid introduction in the biography section as well as down below you can see an image of each current band member of the band and its instrument. There is also a store section where items can be purchased such as Albums, Merch or even digital streams and downloads. For social media lovers, there is an Instagram feed witch updates each time the band posts news feed. Social links can be found on the header and footer. At last the first section of the website will stun new fans as there they will find a short background video very well edited and looped with a big centered band logo in the center.
+Mobile first design principles have been implemented to create a responsive website that is intended to look good on any screen size.
+I have strived to create a majestic looking and enjoyable journey through every section of the website.
