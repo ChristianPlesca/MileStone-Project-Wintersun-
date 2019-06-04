@@ -31,4 +31,10 @@ The following link shows the initial mockups for the Wintersun Website using pen
 5. The Instagram feed allows the user to see bands posts on Instagram.
 6. Images/Videos allows the user to watch images/videos of the band.
 ### Features Left To Implement
-1. New Album section where the user can see listen to an purchase the latest band's release. 
+1. New Album section where the user can see listen to an purchase the latest band's release.
+
+## Technologies  
+1. Html 5 
+2. Css 3 
+3. W3.CSS
+4. Javascript
