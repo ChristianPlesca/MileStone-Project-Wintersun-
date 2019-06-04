@@ -6,7 +6,7 @@ Mobile first design principles have been implemented to create a responsive webs
 I have strived to create a majestic looking and enjoyable journey through every section of the website.
 
 ## UX
-###Strategy
+### Strategy
 People love this band for one reason and that is their majestic music so my aim was to design an absolutely stunning/majestic looking website where fans can see images, videos, book tickets buy their albums/merch items.
 Secondly, my aim was to serve WINTERSUN a platform where they can gain new fans have more albums/merch/tickets sold promote their new work and keep the fans up to date through social media links and an Instagram feed.
 To help me identify the user story I've meet lots of the band's fans spoke with lots of them about what they love the most about the band as well as I've been a part of the band's fan pages where I would ask fans what would they like to see and use on the bands website.
@@ -21,3 +21,14 @@ The following link shows the initial mockups for the Wintersun Website using pen
 4. As a fan of Wintersun, I must be able to purchase Albums/Merch.
 5. As a new fan of Wintersun, I must see a stunning view and to find as much as possible information about the band.
 6. As a band I must be able to sell my Albums/Tickets/Merch etc.. get followers on social media, keep fans up to date with the new content.
+
+## Features 
+### Existing Features 
+1. Navigation Bar allows the user to navigate through any section of the website using a smooth scrolling effect.
+2. Biography allows the user to get solid info about the band, also there are links to the band's/band members Wikipedia page.
+3. Tour Dates allows the user to get notified and purchase tickets for the upcoming tour dates
+4. Store allows the user to purchase items such as Album/Merch.
+5. The Instagram feed allows the user to see bands posts on Instagram.
+6. Images/Videos allows the user to watch images/videos of the band.
+### Features Left To Implement
+1. New Album section where the user can see listen to an purchase the latest band's release. 
