@@ -39,3 +39,34 @@ The following link shows the initial mockups for the Wintersun Website using pen
 3. W3.CSS
 4. Boostrap 4
 5. Javascript
+6. Google Fonts
+7. Font Awesome 
+8. MyFontsWebfontsKit
+9. Band's in Town Widget
+10. Elfsight Instagram Feed Widget
+
+## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/ChristianPlesca/Wintersun-Band-Project.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+
+## Credits
+
+### Content 
+* The NavBar was implemented using Bootstrap 4 
+* Main/Top Section - The video was taken from [Youtube](https://www.youtube.com/) and it has been resized to help the loading speed of the website
+* Biography - Paragraphs were selected from [Wikipedia](https://en.wikipedia.org/) , Read More button function was found [here](https://www.w3schools.com/howto/howto_js_read_more.asp).
+* Tour Dates - The widget has been taken from [BandsinTown](https://www.bandsintown.com/?came_from=242) and it has been styled entirely by me.
+* Store - The items have been selected from [NuclearBlast](https://www.nuclearblast.de/en/shop/artikel/gruppen/51000.1.html?article_group_sort_type_handle=rank&custom_keywords=WINTERSUN&custom_artists=71013#page-1), the section was written entirely by me.
+* Instagram Feed - the widget was taken from [Elfsight](https://apps.elfsight.com/panel/applications/instashow/) and styled by me.
+* Image Slides function was found [here](https://www.w3schools.com/w3css/w3css_slideshow.asp) and it has been overwritten by me to fit my requirements.
+* Newsletter - was implemented using Bootstrap 4.
+
+### Media 
+* Images were taken from [Google](https://www.google.com/),[Wikipedia](https://en.wikipedia.org/).
+* Videos were taken from [Youtube](https://www.youtube.com/).
+
+### Acknowledgements
+I have received inspiration for this project from [Spotify](https://open.spotify.com/browse/featured),[Razer](https://www.razer.com/gb-en).
+
+
