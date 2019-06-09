@@ -4,6 +4,7 @@
     src: url('webfonts/395FAA_0_0.eot');
     src: url('webfonts/395FAA_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/395FAA_0_0.woff2') format('woff2'), url('webfonts/395FAA_0_0.woff') format('woff'), url('webfonts/395FAA_0_0.ttf') format('truetype');
 }
+
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 html {
     scroll-behavior: smooth;
@@ -252,7 +253,6 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-
 /*---------------------------------------Buttons*/
 
 .btn {
@@ -333,7 +333,6 @@ h1, h2, h3, h4, h5 {
 
 nav.large {
     background: #222222;
-    opacity: 0.9;
 }
 
 .nav-items {
@@ -374,7 +373,6 @@ nav.large {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fafafa;
-
 }
 
 /*-------------------------------------------MAIN Video Page*/
@@ -410,7 +408,7 @@ nav.large {
 .biography-img-container {
     width: 100%;
     height: 100%;
-    background: url("../images/biography-main.jpg") no-repeat top  fixed;
+    background: url("../images/biography-main.jpg") no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -981,7 +979,6 @@ img.hover-shadow {
 }
 
 /*------------------------------------------VIDEOS*/
-
 
 .video-title {
     color: #fefefe;
