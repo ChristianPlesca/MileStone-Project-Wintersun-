@@ -48,9 +48,9 @@ The following link shows the initial mockups for the Wintersun Website using pen
 11. Visual Studio Code
 12. jQuery for Boostrap functionality.
 ### Resources
-[Stackoverflow](https://stackoverflow.com/)
-[W3schools](https://www.w3schools.com/)
-[Google](https://www.google.com/)
+* [Stackoverflow](https://stackoverflow.com/)
+* [W3schools](https://www.w3schools.com/)
+* [Google](https://www.google.com/)
 
 ## Testing 
 * The website was constantly tested during development using Chrome dev tools. I used this to resize the browser to check new code was working, breakpoints, and different mobile/tablet screen sizes.
