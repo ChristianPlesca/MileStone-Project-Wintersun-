@@ -1,7 +1,7 @@
 # Wintersun Band Website
 Stream One Project: User-Centric Frontend Development - Code Institute
 
-This is a website I created for a band called (Wintersun) to present to prospective employers. The website highlights seven projects that cover a range of technologies. Fans can buy tickets at the tour dates section updates each time the band announces a new gig, fans can also find the best quality videos and pictures which have been carefully chosen by me. There is a solid introduction in the biography section as well as down below you can see an image of each current band member of the band and its instrument. There is also a store section where items can be purchased such as Albums, Merch or even digital streams and downloads. For social media lovers, there is an Instagram feed witch updates each time the band posts news feed. Social links can be found on the header and footer. At last the first section of the website will stun new fans as there they will find a short background video very well edited and looped with a big centered band logo in the center.
+This is a website I created for a band called (Wintersun) to present to prospective employers. The website highlights seven projects that cover a range of technologies. Fans can buy tickets at the tour dates section as the section updates each time the band announces a new gig, fans can also find the best quality videos and pictures which have been carefully chosen by me. There is a solid introduction in the biography section as well as down below you can see an image of each current band member of the band and its instrument. There is also a store section where items can be purchased such as Albums, Merch or even digital streams and downloads. For social media lovers, there is an Instagram feed witch updates each time the band posts news feed. Social links can be found on the header and footer. At last the first section of the website will stun new fans as there they will find a short background video very well edited and looped with a big centered band logo in the center.
 Mobile first design principles have been implemented to create a responsive website that is intended to look good on any screen size.
 I have strived to create a majestic looking and enjoyable journey through every section of the website.
 
@@ -32,6 +32,7 @@ The following link shows the initial mockups for the Wintersun Website using pen
 6. Images/Videos allows the user to watch images/videos of the band.
 ### Features Left To Implement
 1. New Album section where the user can see listen to an purchase the latest band's release.
+2. Contact Form.
 
 ## Technologies  
 1. Html 5 
@@ -44,11 +45,29 @@ The following link shows the initial mockups for the Wintersun Website using pen
 8. MyFontsWebfontsKit
 9. Band's in Town Widget
 10. Elfsight Instagram Feed Widget
+11. Visual Studio Code
+12. jQuery for Boostrap functionality.
+### Resources
+[Stackoverflow](https://stackoverflow.com/)
+[W3schools](https://www.w3schools.com/)
+[Google](https://www.google.com/)
+
+## Testing 
+* The website was constantly tested during development using Chrome dev tools. I used this to resize the browser to check new code was working, breakpoints, and different mobile/tablet screen sizes.
+* After deployment I've tested the website on multiple browsers such as Mozila(Fire Fox),Opera,Chrome,Microsoft Edge,Safari.
+* Used [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) and received a mobile friendly result.
+* I checked the website on [CrocodileMarketing](https://www.crocodilemarketing.com.au/seo-analysing-tool?utm_campaign=Crocodile+Marketing-+21+Feb&utm_medium=ppc&utm_term=%2Btest%20%2Bmy%20%2Bwebsite%20%2Bspeed&utm_source=adwords&hsa_kw=%2Btest%20%2Bmy%20%2Bwebsite%20%2Bspeed&hsa_acc=8502668996&hsa_mt=b&hsa_net=adwords&hsa_src=g&hsa_cam=1713700690&hsa_ver=3&hsa_tgt=kwd-297983576571&hsa_ad=333462994051&hsa_grp=67469633499&gclid=Cj0KCQjw3PLnBRCpARIsAKaUbguATVVYsyKIT7B8awXPgqjIiSu7_wVspYUOxic-xgIQg4P2MDlD9JMaAq9nEALw_wcB) and i recived SCORE:100 for Responsivness and SCORE:70 for Speed.
+* Used HTML and CSS validator with [NuHTMLChecker](https://validator.w3.org/nu/#textarea) and [W3C-CSS](https://jigsaw.w3.org/css-validator/validator)
+### Issues encountered
+* I discovered that the Video and Images files were to big affecting the load speed of the website.
+* The Newsletter email form will not send is not connected as this is beyond the scope of this project.
+### Steps taken to resolve issues
+* I had to compress all the images and the video
 
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+Deployed using Github Pages - https://christianplesca.github.io/Wintersun-Band-Project/ directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/ChristianPlesca/Wintersun-Band-Project.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/ChristianPlesca/Wintersun-Band-Project.git` into your terminal. Type `git remote rm origin` into the terminal.
 
 ## Credits
 
@@ -68,5 +87,9 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Acknowledgements
 I have received inspiration for this project from [Spotify](https://open.spotify.com/browse/featured),[Razer](https://www.razer.com/gb-en).
+
+Website for educational purposes only.
+
+
 
 
