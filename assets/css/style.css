@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5 {
     font-weight: bold !important;
 }
 
+
 /*----------------------------------Media Queries*/
 
 @media (max-width:736px) {
@@ -397,11 +398,20 @@ nav.large {
     top: 0;
     left: 0;
     object-fit: cover;
-    width: auto !important;
+    width: 100% !important;
     height: auto !important;
     pointer-events: none;
     z-index: -1;
 }
+
+.bg_vid {
+    background-image: url(../images/805.gif);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    position: fixed;
+    z-index: -2;
+    }
 
 /*---------------------------------------------Biography*/
 
