@@ -382,6 +382,9 @@ nav.large {
     width: 600px;
     height: 200px;
 }
+.video-logo {
+    z-index: 2 !important;
+}
 
 .video-container {
     width: 100%;
@@ -401,17 +404,14 @@ nav.large {
     width: 100% !important;
     height: 100% !important;
     pointer-events: none;
-    z-index: -1;
+    z-index: 1;
 }
-
-.bg_vid {
-    background-image: url(../images/805.gif);
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-    background-position: center;
-    position: fixed;
-    z-index: -2;
+@supports (-ms-ime-align: auto) {
+    #video {
+        height: auto !important;
+        width: auto !important;
     }
+  }
 
 /*---------------------------------------------Biography*/
 
