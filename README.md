@@ -33,6 +33,7 @@ The following link shows the initial mockups for the Wintersun Website using pen
 ### Features Left To Implement
 1. New Album section where the user can see listen to an purchase the latest band's release.
 2. Contact Form.
+3. Loading Gif for the 1st Section Video Background  
 
 ## Technologies  
 1. Html 5 
