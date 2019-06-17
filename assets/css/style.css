@@ -399,7 +399,7 @@ nav.large {
     left: 0;
     object-fit: cover;
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
     pointer-events: none;
     z-index: -1;
 }
